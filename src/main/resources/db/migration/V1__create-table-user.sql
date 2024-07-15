@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS user_tb(
+    id BIGINT PRIMARY KEY,
+    nome VARCHAR(200) NOT NULL,
+    email VARCHAR(200) NOT NULL,
+    senha VARCHAR(20) NOT NULL
+);
